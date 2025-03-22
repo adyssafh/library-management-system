@@ -28,5 +28,11 @@ public class Member {
         }
     }
 
-    // to String
+    @Override
+    public String toString() {
+        return "Member{" +
+                "memberId=" + memberId +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

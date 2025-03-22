@@ -21,5 +21,13 @@ public class Book {
         this.availableCopies++;
     }
 
-    // to String
+    @Override
+    public String toString() {
+        return "Book{" +
+                "bookId=" + bookId +
+                ", title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", availableCopies=" + availableCopies +
+                '}';
+    }
 }

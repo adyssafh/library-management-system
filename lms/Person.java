@@ -8,4 +8,8 @@ public class Person {
         this.id = id;
         this.name = name;
     }
+
+    public String displayInfo() {
+        return "id: " + id + " name: " + name;
+    }
 }
